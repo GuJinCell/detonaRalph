@@ -32,7 +32,7 @@ function countDown(){
 }
 
 function playSound(audioName){
-    let audio = new Audio(`.\src\audios\${audioName}.m4a`);
+    let audio = new Audio(`./src/audios/${audioName}.m4a`);
     audio.play();
 }
 
@@ -56,6 +56,7 @@ function addListenerHitBox(){
                 state.view.score.textContent = state.values.result;
                 state.values.hitPosition = null;
 
+                playSound("bounce);
             }else{
                 state.values.life--;
                 state.view.life.textContent = `x${state.values.life}`;
