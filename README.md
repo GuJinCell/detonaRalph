@@ -32,4 +32,4 @@ Este é um jogo simples de **point & click** onde o jogador deve reagir rapidame
 ## Como Jogar  
 1. Clone o repositório:
    ```bash
-   https://github.com/GuJinCell/detonaRalph
+   git clone https://github.com/GuJinCell/detonaRalph
